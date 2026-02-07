@@ -1,0 +1,40 @@
+$textColor : #384050;
+$mainBlue : #0074c7;
+$darkBlue : #00497c;
+$lightBlue : #f1f8fc;
+$red : #cd2c2e;
+$green : #82b864;
+
+h1 {
+    color: $mainBlue;
+}
+
+.btn-primary {
+    background-color: $mainBlue;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: $darkBlue;
+    border: none;
+}
+
+.navbar {
+    background-color: $lightBlue;
+}
+
+p td th {
+    color: $textColor;
+}
+
+.block {
+    max-width: 1200px;
+}
+
+.navbar-brand {
+    color: $green;
+}
+
+.container-form{
+    width: 500px;
+}
